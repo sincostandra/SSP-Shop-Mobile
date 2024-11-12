@@ -2,11 +2,12 @@ Tugas 8
 1. Apa kegunaan const di Flutter? Jelaskan apa keuntungan ketika menggunakan const pada kode Flutter. Kapan sebaiknya kita menggunakan const, dan kapan sebaiknya tidak digunakan?  
 const digunakan untuk mendefinisikan nilai konstan yang tidak akan berubah selama runtime. Di Flutter, const sering digunakan untuk mendeklarasikan widget yang tidak perlu dibangun ulang setiap kali widget tree di-render ulang, sehingga meningkatkan efisiensi aplikasi. const sebaiknya digunakan untuk widget yang tidak akan berubah spt teks statis atau nilai konstan, sedangkan jika widgetnya sering update maka tidak disarankan menggunakan const  
 
-2. | Aspek | Column | Row |
+2. 
+| Aspek | Column | Row |
 |-------|---------|-----|
 | Arah Penataan | Vertikal (Atas ke Bawah) | Horizontal (Kiri ke Kanan) |
 | Properti Utama | mainAxisAlignment, crossAxisAlignment | mainAxisAlignment, crossAxisAlignment |
-| Penggunaan Umum | Daftar item, form input, konten vertikal lainnya | Menu navigasi, tombol berdampingan, baris ikon |
+| Penggunaan Umum | Daftar item, form input, konten vertikal lainnya | Menu navigasi, tombol berdampingan, baris ikon |  
 
 implementasi column:  
 ``` dart

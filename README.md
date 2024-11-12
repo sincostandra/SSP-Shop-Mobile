@@ -63,33 +63,34 @@ class RowExample extends StatelessWidget {
 }   
 ```
 3. Sebutkan apa saja elemen input yang kamu gunakan pada halaman form yang kamu buat pada tugas kali ini. Apakah terdapat elemen input Flutter lain yang tidak kamu gunakan pada tugas ini? Jelaskan! 
-Elemen input yang digunakan:   
-TextFormField untuk Product:  
-Digunakan untuk memasukkan nama produk.  
-Validasi: Tidak boleh kosong.  
+    Elemen input yang digunakan:  
+    
+    TextFormField untuk Product:  
+    Digunakan untuk memasukkan nama produk.  
+    Validasi: Tidak boleh kosong.  
 
-TextFormField untuk Amount:  
-Digunakan untuk memasukkan jumlah produk.
-Validasi:
-Tidak boleh kosong.  
-Harus berupa angka.  
-Tidak boleh non-positif.  
+    TextFormField untuk Amount:  
+    Digunakan untuk memasukkan jumlah produk.
+    Validasi:
+    Tidak boleh kosong.  
+    Harus berupa angka.  
+    Tidak boleh non-positif.  
 
-TextFormField untuk Description:  
-Digunakan untuk memasukkan deskripsi produk.  
-Validasi: Tidak boleh kosong.  
+    TextFormField untuk Description:  
+    Digunakan untuk memasukkan deskripsi produk.  
+    Validasi: Tidak boleh kosong.  
 
-ElevatedButton untuk Save:  
-Digunakan untuk menyimpan data produk setelah validasi berhasil.
+    ElevatedButton untuk Save:  
+    Digunakan untuk menyimpan data produk setelah validasi berhasil.
 
-Elemen input yang tidak digunakan:  
-DropdownButton:
-Fungsi: Menyediakan pilihan dropdown untuk memilih satu opsi dari daftar.  
+    Elemen input yang tidak digunakan:  
+    DropdownButton:
+    Fungsi: Menyediakan pilihan dropdown untuk memilih satu opsi dari daftar.  
 
-DropdownButton:
-Fungsi: Menyediakan pilihan dropdown untuk memilih satu opsi dari daftar.
+    DropdownButton:
+    Fungsi: Menyediakan pilihan dropdown untuk memilih satu opsi dari daftar.
 
-dan lain-lain
+    dan lain-lain
 
 4. Bagaimana cara kamu mengatur tema (theme) dalam aplikasi Flutter agar aplikasi yang dibuat konsisten? Apakah kamu mengimplementasikan tema pada aplikasi yang kamu buat?  
 Pada main.dart, ubah colorScheme pada ThemeData, pada tugas kali ini aku set warnanya jadi green (primar) dan green[200] (secondary), tidak lupa mengatur useMaterial:3. Sekarang ketika aku membutuhkan warna maka aku tinggal panggil saja ColorScheme-nya  

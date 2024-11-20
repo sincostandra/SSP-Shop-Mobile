@@ -71,7 +71,7 @@ Sesi dikelola otomatis oleh CookieRequest. UI diperbarui menggunakan state manag
 
 6. Step-by-Step:  
 
-Setup Autentikasi pada Django untuk Flutter  
+### Setup Autentikasi pada Django untuk Flutter  
 1. **Buat Aplikasi Django untuk Autentikasi:**
    - Buat sebuah django-app bernama `authentication` dalam project Django yang telah dibuat sebelumnya.
 
@@ -90,7 +90,7 @@ Setup Autentikasi pada Django untuk Flutter
    - Buat file `urls.py` dalam folder `authentication` dan tambahkan routing untuk endpoint `login/`.
    - Tambahkan path `auth/` yang menginklusi `authentication.urls` pada file `urls.py` utama project Django.  
 
-Integrasi Sistem Autentikasi pada Flutter  
+### Integrasi Sistem Autentikasi pada Flutter  
  1. **Instalasi Package**
    - Tambahkan package `provider` dan `pbp_django_auth` ke proyek Flutter menggunakan perintah `flutter pub add`.
 
@@ -122,11 +122,7 @@ Untuk membuat model yang sesuai dengan data JSON, Anda dapat menggunakan situs w
    - Klik opsi "Copy Code" untuk mendapatkan kode model Dart.
 
 3. **Integrasi ke Proyek Flutter:**
-   - Buat folder `models/` di dalam direktori 
-
-lib
-
-.
+   - Buat folder `models/` di dalam direktori lib.  
    - Buat file `product_entry.dart` dan tempelkan kode model yang telah disalin dari Quicktype.
 
 ### Penerapan Fetch Data dari Django untuk Ditampilkan di Flutter
@@ -138,11 +134,7 @@ Untuk melakukan permintaan HTTP, tambahkan package `http` ke dalam proyek Flutte
 #### Melakukan Fetch Data dari Django
 
 1. **Membuat Halaman Baru:**
-   - Buat file `list_productentry.dart` di dalam direktori 
-
-screens
-
-.
+   - Buat file `list_productentry.dart` di dalam direktori screens.  
 
 2. **Impor Library yang Diperlukan:**
    - Impor library Flutter, model `productEntry`, dan widget pendukung lainnya.
